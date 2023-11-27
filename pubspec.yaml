@@ -12,12 +12,12 @@ dependencies:
 
   cupertino_icons: ^1.0.2
 
-  intl: ^0.17.0
+  intl: ^0.18.1
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  lint: ^1.0.0
+  lint: ^2.2.0
 
 flutter:
   uses-material-design: true
