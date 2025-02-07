@@ -89,7 +89,7 @@ class _WebDatePickerState extends State<WebDatePicker> {
     _focusNode.addListener(() {
       if (_focusNode.hasFocus) {
         _overlayEntry = _createOverlayEntry();
-        Overlay.of(context)?.insert(_overlayEntry);
+        Overlay.of(context).insert(_overlayEntry);
       } else {
         _controller.text = _selectedDate.parseToString(widget.dateformat);
         widget.onChange.call(_selectedDate);
